@@ -1,9 +1,9 @@
 import React from 'react';
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch } from 'react-router-dom';
 
 import ThaiNavPrimary from './ThaiNavPrimary';
 
-const Thai = () => {
+const Thai: React.FC = () => {
   return (
     <div>
       <ThaiNavPrimary />
