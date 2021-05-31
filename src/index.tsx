@@ -1,5 +1,6 @@
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
+import "./i18n";
 
 import {
   BrowserRouter,
@@ -13,26 +14,10 @@ import Thai from "./Thai";
 // react-spa-prerender
 const rootElement = document.getElementById("root");
 
-ReactDOM.render(
+ReactDOM.render((
   <StrictMode>
     <BrowserRouter>
-      <nav>
-        <div>
-          <Link to="/">Home</Link>
-        </div>
-        <div>
-          <Link to="/user/:id">User</Link>
-        </div>
-      </nav>
-      <Switch>
-        <Route path="/user">
-          <div>user</div>
-        </Route>
-        <Route path="/" exact>
-          <Thai />
-        </Route>
-      </Switch>
+      <Thai />
     </BrowserRouter>
-  </StrictMode>,
-  rootElement
-);
+  </StrictMode>
+), document.getElementById("root"));
