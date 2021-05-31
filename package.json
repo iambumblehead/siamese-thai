@@ -32,6 +32,7 @@
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "devDependencies": {
+    "husky": "^6.0.0",
     "@babel/cli": "7.14.3",
     "@babel/core": "^7.14.3",
     "@babel/parser": "^7.14.3",
@@ -54,6 +55,11 @@
     "build-storybook": "build-storybook -o docs",
     "deploy": "npm run build-storybook && gh-pages -d docs -m 'chore: deploy docs'",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "prettier": {
     "semi": true,
