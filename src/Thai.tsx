@@ -3,16 +3,33 @@ import { Route, Switch } from 'react-router-dom';
 
 import ThaiNavPrimary from './ThaiNavPrimary';
 
+import {
+  enumRouteHome,
+  enumRouteContact,
+  enumRouteLunch,
+  enumRouteMenu,
+  enumRouteOrder
+} from './enums';
+
 const Thai: React.FC = () => {
   return (
     <div>
       <ThaiNavPrimary />
       <Switch>
-        <Route path="/user">
-          <div>user</div>
+        <Route path={enumRouteHome} exact>
+          <div>home</div>
         </Route>
-        <Route path="/" exact>
-          <div>what</div>
+        <Route path={enumRouteContact}>
+          <div>contact</div>
+        </Route>
+        <Route path={enumRouteLunch}>
+          <div>lunch</div>
+        </Route>
+        <Route path={enumRouteMenu}>
+          <div>menu</div>
+        </Route>
+        <Route path={enumRouteOrder}>
+          <div>order</div>
         </Route>
       </Switch>
     </div>
