@@ -1,4 +1,4 @@
-const toObject = (list) =>
+const toObject = (list: Array<string>) =>
   Object.freeze(list.reduce((p, val) => Object.assign(p, { [val]: val }), {}));
 
 const enumRouteHome = '/';
