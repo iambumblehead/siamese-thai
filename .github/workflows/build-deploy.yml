@@ -1,12 +1,10 @@
-name: Build & deploy
+name: build-deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   pull_request:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
   build:
@@ -21,14 +19,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 16.x
-    
-    - name: Install NPM packages
       run: npm ci
-    
-    - name: Build project
       run: npm run build
-    
-    - name: Run tests
       run: npm run test
 
     - name: Upload production-ready build files
