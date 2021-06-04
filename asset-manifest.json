@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/siamese-thai/static/js/main.f9b72262.chunk.js",
+    "main.js.map": "/siamese-thai/static/js/main.f9b72262.chunk.js.map",
+    "runtime-main.js": "/siamese-thai/static/js/runtime-main.ca651ef1.js",
+    "runtime-main.js.map": "/siamese-thai/static/js/runtime-main.ca651ef1.js.map",
+    "static/css/2.9a72e83e.chunk.css": "/siamese-thai/static/css/2.9a72e83e.chunk.css",
+    "static/js/2.b9eec76f.chunk.js": "/siamese-thai/static/js/2.b9eec76f.chunk.js",
+    "static/js/2.b9eec76f.chunk.js.map": "/siamese-thai/static/js/2.b9eec76f.chunk.js.map",
+    "index.html": "/siamese-thai/index.html",
+    "static/css/2.9a72e83e.chunk.css.map": "/siamese-thai/static/css/2.9a72e83e.chunk.css.map",
+    "static/js/2.b9eec76f.chunk.js.LICENSE.txt": "/siamese-thai/static/js/2.b9eec76f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca651ef1.js",
+    "static/css/2.9a72e83e.chunk.css",
+    "static/js/2.b9eec76f.chunk.js",
+    "static/js/main.f9b72262.chunk.js"
+  ]
+}
