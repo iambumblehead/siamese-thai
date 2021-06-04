@@ -57,7 +57,7 @@
   "scripts": {
     "start:env": "DISABLE_NEW_JSX_TRANSFORM=true",
     "start": "npm run start:env && react-scripts start",
-    "build": "rollup -c",
+    "build": "react-scripts build",
     "test": "npm run lint && npm run unit-test",
     "eject": "react-scripts eject",
     "unit-test": "NODE_ENV=test npm run jest",
