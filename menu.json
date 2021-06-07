@@ -1,0 +1,91 @@
+{
+  "menuSections": [{
+    "menuItemType": "Noodles",
+    "en_description": "All dish are prepared with choice of chicken or pork (Beef add 1.00 Shrimp add 2.00)"
+  }],
+  "menuItems": [{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Chicken Noodle"],
+    "en_labelNarrow": [ "Ck Ndl" ],
+    "price": 10.95,
+    "en_description": "Stir-fried flat noodle with chicken, egg, bean sprout, onion & ground peanut"
+  },{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Chow Mein"],
+    "en_labelNarrow": [ "Chw Mn" ],
+    "price": 10.95,
+    "en_description": "Stir-fried egg noodle with carrot and assorted vegetables"
+  },{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Pad See-Ew"],
+    "en_labelNarrow": [ "Pd Sew" ],
+    "price": 10.95,
+    "en_description": "Stir-fried flat noodle with egg and broccoli in sweet soy sauce"
+  },{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Pad Thai"],
+    "en_labelNarrow": [ "Pd Tai" ],
+    "price": 10.95,
+    "en_description": "Pan-fried rice noodle with chicken, egg, bean sprout, green onion & ground peanut"
+  },{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Pad Woon Sen"],
+    "en_labelNarrow": [ "Pd Woo" ],
+    "price": 10.95,
+    "en_description": "Stir-fried silver noodle with egg, tomato, celery, bean sprout & onion"
+  },{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Rad Na"],
+    "en_labelNarrow": [ "Rad Na" ],
+    "price": 10.95,
+    "en_description": "Flat noodle and broccoli stir-fried with soy sauce & gravy"
+  },{
+    "menuItemTypes": [ "Noodles" ],
+    "en_labelWide": ["Spicy Noodle"],
+    "en_labelNarrow": [ "Sp Ndl" ],
+    "price": 10.95,
+    "en_description": "Flat noodle stir-fired with spicy sauce, mint leaves & green chili"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Combination Fried Rice",
+    "en_labelNarrow": [ "Cb Frc" ],
+    "price": 12.95,
+    "en_description": "Stir-fried rice with chicken, shrimp & beef including egg, pea and carrot"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Crab Fried Rice",
+    "en_labelNarrow": [ "Cr Frc" ],
+    "price": 14.95,
+    "en_description": "Stir-fried rice with crab meat, egg tomato & onion"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Hawaiian Fried Rice",
+    "en_labelNarrow": [ "Ha Frc" ],
+    "price": 10.95,
+    "en_description": "Stir-fried rice with egg, chicken, shrimp, cashew nut, pineapple & onion topped with yellow curry powder"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Fried Rice (Choice of chicken or pork; Beef add 1.00 Shrimp add 2.00)",
+    "en_labelNarrow": [ "Fr Rce" ],
+    "price": 11.95,
+    "en_description": "Stir-fried with egg, pea, carrot & onion"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Siamese Fried Rice",
+    "en_labelNarrow": [ "Si Rce" ],
+    "price": 11.95,
+    "en_description": "Fried rice topped with dry chili, gourmet chicken and cashew nut"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Spicy Seafood Fried Rice",
+    "en_labelNarrow": [ "Sp SRc" ],
+    "price": 10.95,
+    "en_description": "Stir-fried rice with squid, shrimp, spicy sauce, mint leaves & onion"
+  },{
+    "menuItemTypes": [ "Rice" ],
+    "en_labelWide": "Spicy Fried Rice (Chicken or pork; Beef add 1.00 Shrimp add 2.00)",
+    "en_labelNarrow": [ "Sp Rce" ],
+    "price": 12.95,
+    "en_description": "Stir-fried rice with onion, mint leaves, green chili & spicy sauce"
+  }]
+}
