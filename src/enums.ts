@@ -7,9 +7,12 @@ const enumRouteLunch = '/lunch-special';
 const enumRouteMenu = '/menu';
 const enumRouteContact = '/contact';
 
-declare const uriMenu: string;
+declare global {
+  // eslint-disable-next-line
+  var uriMenu: string;
+}
 
-const enumUriMenu = uriMenu;
+const enumUriMenu = globalThis.uriMenu || './menu.json';
 
 const enumRoutes = toObject([
   enumRouteHome,
