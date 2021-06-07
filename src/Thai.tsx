@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import ThaiNavPrimary from './ThaiNavPrimary';
+import ThaiContentMenu from './ThaiContentMenu';
 
 import {
   enumRouteHome,
@@ -26,7 +27,7 @@ const Thai: React.FC = () => {
           <div>lunch</div>
         </Route>
         <Route path={enumRouteMenu}>
-          <div>menu</div>
+          <ThaiContentMenu />
         </Route>
         <Route path={enumRouteOrder}>
           <div>order</div>

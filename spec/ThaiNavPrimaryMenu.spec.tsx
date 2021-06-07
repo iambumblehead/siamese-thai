@@ -5,6 +5,12 @@ import enzyme from 'enzyme';
 
 import ThaiNavPrimaryMenu from '../src/ThaiNavPrimaryMenu';
 
+// interface CustomNodeJsGlobal extends NodeJS.Global {
+//   uriMenu: string;
+// }
+// declare const global: CustomNodeJsGlobal;
+// global.uriMenu = '/menu.json';
+
 test('ThaiNavPrimaryMenu, renders', (t) => {
   const component = enzyme.mount(
     <MemoryRouter>
