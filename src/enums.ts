@@ -7,6 +7,10 @@ const enumRouteLunch = '/lunch-special';
 const enumRouteMenu = '/menu';
 const enumRouteContact = '/contact';
 
+declare const uriMenu: string;
+
+const enumUriMenu = uriMenu;
+
 const enumRoutes = toObject([
   enumRouteHome,
   enumRouteOrder,
@@ -21,5 +25,6 @@ export {
   enumRouteLunch,
   enumRouteMenu,
   enumRouteContact,
-  enumRoutes
+  enumRoutes,
+  enumUriMenu
 };
