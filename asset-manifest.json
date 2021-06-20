@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/siamese-thai/static/js/main.ea078c96.chunk.js",
-    "main.js.map": "/siamese-thai/static/js/main.ea078c96.chunk.js.map",
+    "main.css": "/siamese-thai/static/css/main.c0e433e3.chunk.css",
+    "main.js": "/siamese-thai/static/js/main.06977c08.chunk.js",
+    "main.js.map": "/siamese-thai/static/js/main.06977c08.chunk.js.map",
     "runtime-main.js": "/siamese-thai/static/js/runtime-main.ca651ef1.js",
     "runtime-main.js.map": "/siamese-thai/static/js/runtime-main.ca651ef1.js.map",
-    "static/css/2.9a72e83e.chunk.css": "/siamese-thai/static/css/2.9a72e83e.chunk.css",
-    "static/js/2.666bc675.chunk.js": "/siamese-thai/static/js/2.666bc675.chunk.js",
-    "static/js/2.666bc675.chunk.js.map": "/siamese-thai/static/js/2.666bc675.chunk.js.map",
+    "static/js/2.fdf08d48.chunk.js": "/siamese-thai/static/js/2.fdf08d48.chunk.js",
+    "static/js/2.fdf08d48.chunk.js.map": "/siamese-thai/static/js/2.fdf08d48.chunk.js.map",
     "index.html": "/siamese-thai/index.html",
-    "static/css/2.9a72e83e.chunk.css.map": "/siamese-thai/static/css/2.9a72e83e.chunk.css.map",
-    "static/js/2.666bc675.chunk.js.LICENSE.txt": "/siamese-thai/static/js/2.666bc675.chunk.js.LICENSE.txt"
+    "static/css/main.c0e433e3.chunk.css.map": "/siamese-thai/static/css/main.c0e433e3.chunk.css.map",
+    "static/js/2.fdf08d48.chunk.js.LICENSE.txt": "/siamese-thai/static/js/2.fdf08d48.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ca651ef1.js",
-    "static/css/2.9a72e83e.chunk.css",
-    "static/js/2.666bc675.chunk.js",
-    "static/js/main.ea078c96.chunk.js"
+    "static/js/2.fdf08d48.chunk.js",
+    "static/css/main.c0e433e3.chunk.css",
+    "static/js/main.06977c08.chunk.js"
   ]
 }
