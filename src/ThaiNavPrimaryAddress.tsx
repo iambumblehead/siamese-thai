@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
   link: {
@@ -15,14 +13,17 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-const ThaiNavPrimary: React.FC = () => {
+const ThaiNavPrimaryAddress: React.FC = () => {
   const classes = useStyles();
 
   return (
-    <Link to="/" className={classes.link}>
-      <Typography className={classes.linklogo}>Siamese Thai</Typography>
-    </Link>
+    <address className={classes.link}>
+      1544 Foothill Blvd,
+      <br /> La Verne 91750
+      <br />
+      <a href="tel:909-593-7097">(909) 593-7097</a>
+    </address>
   );
 };
 
-export default ThaiNavPrimary;
+export default ThaiNavPrimaryAddress;

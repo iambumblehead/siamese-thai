@@ -5,7 +5,7 @@ import ThaiLinkLogo from './ThaiLinkLogo';
 
 const useStyles = makeStyles(() => ({
   drawerHead: {
-    padding: '12px',
+    padding: '12px 0',
     textAlign: 'center'
   },
   drawerHeadButton: {

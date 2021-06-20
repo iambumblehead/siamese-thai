@@ -12,27 +12,34 @@ import {
 
 const useStyles = makeStyles(() => ({
   menuBoxTabs: {
-    // justifyContent: 'flex-end',
     flexGrow: 1,
-    '@media (min-width:800px)': {
+    '@media (min-width:1000px)': {
       marginRight: '80px'
     },
-    '@media (max-width:799px)': {
+    '@media (max-width:999px)': {
       '& > div > div': {
         justifyContent: 'flex-end'
       }
     },
-    // [theme.breakpoints.down('sm')]: {
-    '@media (max-width:639px)': {
+    '@media (max-width:889px)': {
       display: 'none'
     }
   },
   menuBoxTabsItem: {
-    minWidth: '0px'
+    minWidth: '0px',
+    fontSize: '20px',
+    padding: '12px 12px'
   },
   drawerTabs: {},
   drawerTabsItem: {
-    display: ''
+    display: '',
+    fontSize: '20px',
+    padding: '10px 12px'
+  },
+  indicator: {
+    '@media (max-width:889px)': {
+      left: '0px'
+    }
   }
 }));
 
@@ -67,10 +74,13 @@ const ThaiNavPrimaryMenu: React.FC<ThaiNavPrimaryMenuProps> = ({
   return (
     <Tabs
       className={classTabs}
+      classes={{
+        indicator: classes.indicator
+      }}
       value={tabValue}
       variant="standard"
-      indicatorColor="secondary"
-      textColor="secondary"
+      indicatorColor="primary"
+      textColor="primary"
       orientation={orientation}
       centered
     >
