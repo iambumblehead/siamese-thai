@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Paper, Box, IconButton } from '@material-ui/core';
 import { Menu } from '@material-ui/icons';
 
+import ThaiNavPrimaryAddress from './ThaiNavPrimaryAddress';
 import ThaiNavPrimaryDrawer from './ThaiNavPrimaryDrawer';
 import ThaiNavPrimaryMenu from './ThaiNavPrimaryMenu';
 import ThaiLinkLogo from './ThaiLinkLogo';
@@ -17,16 +18,22 @@ const useStyles = makeStyles((theme) => ({
   menuBox: {
     flex: 1,
     display: 'flex',
-    backgroundColor: 'grey',
     alignItems: 'center',
-    padding: '12px'
+    padding: '0 12px'
+  },
+  menuBoxAddress: {
+    position: 'absolute',
+    top: '70px'
   },
   menuBoxBurger: {
     flexGrow: 1,
     textAlign: 'right',
-    '@media (min-width:640px)': {
+    '@media (min-width:890px)': {
       display: 'none'
     }
+  },
+  menuBoxBurgerButtonMenu: {
+    fontSize: '30px'
   }
 }));
 
@@ -45,10 +52,13 @@ const ThaiNavPrimary: React.FC = () => {
     <Paper square className={classes.menu}>
       <Box className={classes.menuBox}>
         <ThaiLinkLogo />
+        <div className={classes.menuBoxAddress}>
+          <ThaiNavPrimaryAddress />
+        </div>
         <ThaiNavPrimaryMenu type="menuBoxTabs" />
         <Box className={classes.menuBoxBurger}>
           <IconButton onClick={() => drawerIsOpenSet(!drawerIsOpen)}>
-            <Menu />
+            <Menu className={classes.menuBoxBurgerButtonMenu} />
           </IconButton>
         </Box>
       </Box>

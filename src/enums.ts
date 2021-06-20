@@ -1,15 +1,14 @@
 const toObject = (list: Array<string>) =>
   Object.freeze(list.reduce((p, val) => Object.assign(p, { [val]: val }), {}));
 
-const enumRouteHome = '/';
-const enumRouteOrder = '/order';
-const enumRouteLunch = '/lunch-special';
-const enumRouteMenu = '/menu';
-const enumRouteContact = '/contact';
+const enumRouteHome = '/siamese-thai';
+const enumRouteOrder = '/siamese-thai/order';
+const enumRouteLunch = '/siamese-thai/lunch-special';
+const enumRouteMenu = '/siamese-thai/menu';
+const enumRouteContact = '/siamese-thai/contact';
 
 declare global {
-  // eslint-disable-next-line
-  var uriMenu: string;
+  var uriMenu: string; // eslint-disable-line
 }
 
 const enumUriMenu = globalThis.uriMenu || './menu.json';
